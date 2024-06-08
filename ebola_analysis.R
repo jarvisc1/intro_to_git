@@ -26,7 +26,7 @@ fig_agesex_all <- age_pyramid(
   
   scale_fill_brewer(type = "qual", palette = 2)+
   
-  labs(title = "Age and sex of confirmed cases",
+  labs(title = "RAge and sex of confirmed cases",
        x = "Proportion of all cases",
        y = "Age group") +
   theme(
